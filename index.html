@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="xl:mx-auto xl:flex xl:justify-center xl:flex-row-reverse xl:max-w-5xl xl:bg-green-500">
+
+<!-- SECTION BUTTON RECHERCHE  -->
+
+
+        <div class="bg-red-300 mx-4 w-auto sm:max-w-xl sm:flex sm:flex-col sm:items-start sm:mx-auto md:max-w-3xl">
+            <div>
+                <input type="checkbox" id="Tout Les Niveaux" name="Tout Les Niveaux"
+                    checked>
+                <label class="text-lg pl-1" for="Tout Les Niveaux">Tout Les Niveaux</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="Débutant" name="Débutant">
+                <label class="text-green-500 text-lg pl-1" for="Débutant"> Débutant</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="Intermédiaire" name="Intermédiaire">
+                <label class="text-yellow-500 text-lg pl-1" for="Intermédiaire">Intermédiaire</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="Avancé" name="Avancé">
+                <label class="text-red-500 text-lg pl-1" for="Avancé">Avancé</label>
+            </div>
+
+        </div>
+
+
+
+<!-- SECTION IMAGE + SECTION RESULTAT  -->
+
+        <div class="flex flex-col w-auto h-auto bg-blue-300 sm:max-w-xl sm:mx-auto md:max-w-3xl md:mx-auto">
+
+            <div class="w-auto h-auto flex justify-between mx-4 py-5 sm:justify-between sm:max-w-xl sm:mx-0 md:justify-between md:max-w-3xl md:mx-0">
+                <div class="">
+                    <p class="text-lg text-gray-400"><b>50</b> résultat(s)</p>
+                </div>
+                <div class="">
+                    <button type="button" class="bg-gray-100 px-2 hover:bg-gray-200 text-gray-400">Pertinance</button>
+                    <button type="button" class="bg-gray-100 px-2 hover:bg-gray-200 text-gray-400">Nouveautés</button>
+                </div>
+            </div>
+
+
+            <div class="w-auto h-auto mx-4 sm:flex sm:justify-center sm:max-w-xl sm:mx-auto md:max-w-3xl">
+                <div class="flex flex-col self-center sm:mr-5 sm:max-w-xs md:max-w-sm">
+                    <img src="rhtyhyhj.jpg" class="rounded sm:max-w-xs md:max-w-3xl">
+                </div>
+                <div class="sm:max-w-xs md:max-w-3xl">
+                    <h2 class="text-lg text-blue-400 font-sans mt-2 mb-1 sm:mt-0 mb-0"><a href="#" class="hover:underline"><b>Learning Path:</b> Machine Learning With Python</a></h2>
+            
+                    <p class="text-gray-400 mt-0 font-sans text-xs"> 
+                        <a class="text-xs bg-gray-100 px-1 py-1 rounded font-bold hover:bg-gray-200" href="#">basics</a>
+                        <a class="text-xs bg-gray-100 px-1 py-1 rounded font-bold hover:bg-gray-200" href="#">best-practices</a>
+                        <a class="text-xs bg-gray-100 px-1 py-1 rounded font-bold hover:bg-gray-200" href="#">python</a>
+                    </p>
+            
+                    <p class="text-gray-400 mt-3 text-sm">
+                        Si tu vas sur la page de l'article, sur la droite il y a 2 carrés gris, quand tu descends dans la page il te suive normalementsi tu vas sur la paget
+                    </p>
+            
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>
+
